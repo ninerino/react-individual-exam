@@ -1,0 +1,118 @@
+.single-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 1rem;
+	width: 100%;
+	background-color: var(--midnight-blue);
+	height: 100%;
+	flex-direction: column;
+	font-family: "Fira Sans";
+
+	.single-text {
+		color: rgba(255,255,255,0.8);
+		font-style: italic;
+	}
+
+	.confirm-single-event {
+		margin-bottom: 0.5rem;
+		border: 1px solid var(--bubblegum-pink);
+
+	}
+
+	.back-button {
+		background-color: transparent;
+		color: var(--bubblegum-pink);
+		font-size: 2rem;
+		border: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		line-height: 1;
+		position: absolute;
+		left: 2rem;
+		top: 40%;
+		transform: translateY(-50%);
+		cursor: pointer;
+	}
+
+	.single-header {
+		display: flex;
+		position: relative;
+		width: 100%;
+		justify-content: center;
+	}
+
+
+
+	.single-eventName {
+		font-family: "Sansita One";
+		color: var(--bubblegum-pink);
+		font-size: 2.1rem;
+	}
+
+	.confirm-single-datetime {
+		color: var(--teal);
+		font-size: 1.1rem;
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.single-price {
+		border-bottom: 1px solid var(--bubblegum-pink);
+		font-size: 2rem;
+		color: var(--white);
+		font-family: var(--font-body);
+		font-style: normal;
+		font-size: 2rem;
+		text-shadow: 1px 1px 2px var(--bubblegum-pink);
+		padding: 2rem;
+		justify-content: center;
+		display: flex;
+	}
+
+	.confirm-single-tickets {
+		border: 1px solid var(--bubblegum-pink);
+		display: grid;
+		grid-template-rows: auto auto;
+		width: 100%;
+	}
+
+	.ticket-controls {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		align-items: center;
+		justify-content: center;
+
+	}
+
+	.ticket-amount {
+		display: flex;
+		align-items: center;
+		color: var(--white);
+		justify-content: center;
+		font-size: 28px;
+		border-left: 1px solid var(--bubblegum-pink);
+		border-right: 1px solid var(--bubblegum-pink);
+	}
+
+	.decreaseItem, .increaseItem {
+		background-color: transparent;
+		border: none;
+		color: var(--white);
+		font-size: 28px;
+	}
+}
+
+.confirm-text {
+	color: rgba(255,255,255,0.8);
+	font-size: 1.2rem;
+	font-style: italic;
+}
+
+.confirm-price {
+	font-size: 2.5rem;
+	color: var(--white);
+	text-shadow: 1px 1px 2px var(--bubblegum-pink);
+	text-align: center;
+}

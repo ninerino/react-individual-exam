@@ -1,0 +1,57 @@
+.event-name {
+	color: var(--white);
+	font-family: var(--font-body);
+	font-style: normal;
+	font-size: 22px;
+	text-shadow: 1px 1px 2px var(--bubblegum-pink);
+}
+
+.event-item {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 1rem;
+	width: 100%;
+
+	.event-date {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid white;
+		color: var(--white);
+		font-family: var(--font-body);
+		border-radius: 3px;
+		height: 4.1rem;
+		width: 4.1rem;
+		margin-right: 2rem;
+	}
+
+	.event-info {
+		color: rgba(255, 255, 255, 0.8);
+		font-family: var(--font-body);
+		font-style: italic;
+		font-size: 12px;
+		border-bottom: 1px solid grey;
+		flex: 1;
+	}
+
+	.event-timeprice {
+		display: flex;
+		justify-content: space-between;
+		align-items: end;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 14px;
+		color: var(--white)
+	}
+
+	.event-price {
+		color: var(--teal);
+		font-style: bold;
+		font-size: 17px;
+	}
+}
+
+.event-name-link {
+	text-decoration: none;
+}

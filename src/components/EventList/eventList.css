@@ -1,0 +1,38 @@
+.event-page__list {
+	background-color: var(--midnight-blue);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 667px;
+	padding: 2rem;
+	gap: 1rem;
+
+	.search-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+
+		.search-input {
+			width: 19.3rem;
+			height: 2.5rem;
+			background-color: rgba(255, 255, 255, 0.1);
+			border: none;
+			border-radius: 3px;
+			padding-left: 2.5rem;
+			color: white;
+			font-family: var(--font-body)
+		}
+
+		.faSearch {
+				position: absolute;
+				left: 1rem;
+				top: 50%;
+				transform: translateY(-50%);
+				color: rgba(255, 255, 255, 0.2);
+				font-size: 1rem;
+				pointer-events: none;
+		}
+	}
+}

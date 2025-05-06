@@ -1,0 +1,25 @@
+.landingPage {
+	background-color: var(--midnight-blue);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 667px;
+}
+
+.landing-logo {
+	height: 178px;
+	width: 182px;
+}
+
+.landing-details {
+	color: var(--white);
+	font-family: var(--font-body);
+	font-size: 22px;
+	font-style: italic;
+	font-weight: 400;
+}
+
+.page-title {
+	font-size: 32px;
+}
